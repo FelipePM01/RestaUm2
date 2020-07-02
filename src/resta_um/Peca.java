@@ -16,6 +16,6 @@ public class Peca {
 		else {
 			tab.setPosition(""+(char)((destino.charAt(0)+posicao.charAt(0))/2)+""+(char)(destino.charAt(1)),null);
 		}
-		
+		posicao=destino;
 	}
 }
