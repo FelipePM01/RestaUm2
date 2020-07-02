@@ -33,9 +33,12 @@ public class Tabuleiro {
 				}
 				if(tab[6-(int)(medio.charAt(1)-'1')][(int)(medio.charAt(0)-'a')]!=null && tab[6-(int)(medio.charAt(1)-'1')][(int)(medio.charAt(0)-'a')]!=vazio)
 				tab[6-(int)(origem.charAt(1)-'1')][(int)(origem.charAt(0)-'a')].mover(destino);
+				else System.out.println(1);
 			}
 			
+			
 		}
+		
 	}
 	void setPosition(String posicao,Peca id) {
 		tab[6-(int)(posicao.charAt(1)-'1')][(int)(posicao.charAt(0)-'a')]=id;
